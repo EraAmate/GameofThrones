@@ -1,0 +1,23 @@
+{
+  "name": "gameofthrones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuleFloorson/GameofThrones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuleFloorson/GameofThrones/issues"
+  },
+  "homepage": "https://github.com/JuleFloorson/GameofThrones#readme",
+  "dependencies": {
+    "htmlhint": "^0.11.0",
+    "prettier": "^1.19.1"
+  }
+}
