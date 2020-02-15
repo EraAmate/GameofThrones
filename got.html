@@ -15,6 +15,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+
+    <!-- videos responsive-->
     <style>
       .video-container {
         position: relative;
@@ -31,6 +33,13 @@
         left: 0;
         width: 100%;
         height: 100%;
+      }
+
+      .hercu {
+        font-family: herculanum;
+      }
+      .black {
+        color: black;
       }
     </style>
 
@@ -58,24 +67,21 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item ">
-              <a class="nav-link" href="#houses"
+              <a class="nav-link hercu" href="#houses"
                 >Houses <span class="sr-only">(current)</span></a
               >
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#religions">Religions</a>
+              <a class="nav-link hercu" href="#westeros">Westeros</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#westeros">Westeros</a>
+              <a class="nav-link hercu" href="#essos">Essos</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#essos">Essos</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#episodes">Episodes</a>
+              <a class="nav-link hercu" href="#trailer">Trailer</a>
             </li>
           </ul>
         </div>
@@ -86,15 +92,20 @@
   <body>
     <div class="container marketing">
       <!-- START THE HOUSES -->
+      <p class="text-center display-4 hercu" style="margin: 25px;" id="houses">
+        Houses
+      </p>
 
       <!-- House Stark-->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">
-            <a href="#">House Stark</a>
-            <span class="text-muted">It’ll blow your mind.</span>
+          <h2 class="featurette-heading hercu">
+            <a href="#housestark" class="font-weight-bold" style="color: black;"
+              >House Stark</a
+            >
+            <span class="text-muted hercu"></span>
           </h2>
-          <p class="lead">
+          <p class="lead hercu">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
@@ -111,11 +122,16 @@
       <!-- House Lennister-->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">
-            <a href="#">House Lennister</a>
-            <span class="text-muted">It’ll blow your mind.</span>
+          <h2 class="featurette-heading hercu">
+            <a
+              href="#houselennister"
+              class="font-weight-bold"
+              style="color: goldenrod;"
+              >House Lennister</a
+            >
+            <span class="text-muted hercu"></span>
           </h2>
-          <p class="lead">
+          <p class="lead hercu">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
@@ -132,11 +148,16 @@
       <!-- House Tagaryen-->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">
-            <a href="#">House Tagaryen</a>
-            <span class="text-muted">It’ll blow your mind.</span>
+          <h2 class=" hercu" style="text-decoration-color: black;">
+            <a
+              href="#housetagaryen"
+              class="font-weight-bold"
+              style="color:rgb(185, 2, 2)"
+              >House Tagaryen</a
+            >
+            <span class="text-muted hercu"></span>
           </h2>
-          <p class="lead">
+          <p class="lead hercu">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
@@ -157,36 +178,50 @@
         class="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner padding:100px text-center ">
+        <div class="carousel-inner padding:100px text-center " id="westeros">
           <div class="carousel-item active">
-            <a href="#beyondthewall" class="display-4">Beyond the Wall</a>
+            <a href="#beyondthewall" class="display-4 hercu black"
+              >Beyond the Wall</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#thenorth" class="display-4">The North</a>
+            <a href="#thenorth" class="display-4 hercu black">The North</a>
           </div>
           <div class="carousel-item">
-            <a href="#thevaleofarryn" class="display-4">The Vale of Arryn</a>
+            <a href="#thevaleofarryn" class="display-4 hercu black"
+              >The Vale of Arryn</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#theironislands" class="display-4">The Iron Islands</a>
+            <a href="#theironislands" class="display-4 hercu black"
+              >The Iron Islands</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#theriverlands" class="display-4">The Riverlands</a>
+            <a href="#theriverlands" class="display-4 hercu black"
+              >The Riverlands</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#thewesterlands" class="display-4">The Westerlands</a>
+            <a href="#thewesterlands" class="display-4 hercu black"
+              >The Westerlands</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#thecrownlands" class="display-4">The Crownlands</a>
+            <a href="#thecrownlands" class="display-4 hercu black"
+              >The Crownlands</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#thestormlands" class="display-4">The Stromlands</a>
+            <a href="#thestormlands" class="display-4 hercu black"
+              >The Stromlands</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#thereach" class="display-4">The Reach</a>
+            <a href="#thereach" class="display-4 hercu black">The Reach</a>
           </div>
           <div class="carousel-item">
-            <a href="#dorne" class="display-4">Dorne</a>
+            <a href="#dorne" class="display-4 hercu black">Dorne</a>
           </div>
         </div>
         <a
@@ -213,7 +248,9 @@
       <hr class="featurette-divider" />
 
       <!--BEGINN OF WESTEROS RELIGIONS-->
-      <h2 class="text-center">Religions of Westeros</h2>
+      <h2 class="text-center hercu " style="margin:50px">
+        Religions of Westeros
+      </h2>
       <div class="row">
         <!--THE OLD GODS-->
         <div class="col-lg-4 text-center">
@@ -223,17 +260,16 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>The Old Goods</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#" role="button"
-              >View details »</a
-            >
+          <h4 class="hercu">The Old Goods</h4>
+          <p class="hercu">
+            The Old Gods of the Forest, or simply the Old Gods, are a pantheon
+            of innumerable and unnamed spirits of nature, which are worshiped by
+            many people of the North and small numbers elsewhere in Westeros. It
+            was once the chief religion of Westeros, but has now been supplanted
+            by the Faith of the Seven, which was brought to the continent by the
+            Andals. Though the two religions have coexisted for more than six
+            thousand years, there is still tension between the most devout
+            adherents of the two faiths.
           </p>
         </div>
 
@@ -245,17 +281,19 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>The Faith of the Seven</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#" role="button"
-              >View details »</a
-            >
+          <h4 class="hercu">The Faith of the Seven</h4>
+          <p class="hercu">
+            The Faith of the Seven, also commonly referred to as the New Gods,
+            is the main religion of the Seven Kingdoms. It is little-practiced
+            beyond its borders. The Faith of the Seven is dominant in the south
+            of Westeros. The only regions where it is not the majority religion
+            are the North, where worship of the Old Gods of the Forest remains
+            strong, and on the Iron Islands, where the local religion of the
+            Drowned God is most widespread. There are many exceptions in these
+            areas, however.[1] The faith, its influence and following were all
+            greatly damaged due to the destruction of its center, the Great Sept
+            of Baelor by wildfire, as a part of a plot organized by Cersei
+            Lannister.
           </p>
         </div>
 
@@ -267,17 +305,20 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>The drowned God</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#" role="button"
-              >View details »</a
-            >
+          <h4 class="hercu">The drowned God</h4>
+          <p class="hercu">
+            The Drowned God is the deity worshiped on the Iron Islands. Together
+            with the North, where the worship of the Old Gods of the Forest
+            remains strong, the Iron Islands are one of the few regions of
+            Westeros not abiding by the main religion of the Seven Kingdoms, the
+            Faith of the Seven. Depictions of the Drowned God, such as statues,
+            are sometimes made by assembling pieces of driftwood into a vaguely
+            humanoid shape with upraised arms - or by finding a single piece of
+            driftwood which somewhat resembles a humanoid shape.[1] Black and
+            White Drowned God A statue of the Drowned God in the House of Black
+            and White, made out of driftwood assembled in a vaguely humanoid
+            form. The Drowned God is believed by the Faceless Men of Braavos to
+            be one of the aspects of the Many-Faced God.
           </p>
         </div>
       </div>
@@ -291,21 +332,27 @@
         class="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner padding:100px text-center ">
+        <div class="carousel-inner padding:100px text-center " id="essos">
           <div class="carousel-item active">
-            <a href="#freecities" class="display-4">Free Cities</a>
+            <a href="#freecities" class="display-4 hercu black">Free Cities</a>
           </div>
           <div class="carousel-item">
-            <a href="#centralessos" class="display-4">Central Essos</a>
+            <a href="#centralessos" class="display-4 hercu black"
+              >Central Essos</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#slaversbay" class="display-4">Slaver's Bay</a>
+            <a href="#slaversbay" class="display-4 hercu black">Slaver's Bay</a>
           </div>
           <div class="carousel-item">
-            <a href="#easternessos" class="display-4">Eastern Essos</a>
+            <a href="#easternessos" class="display-4 hercu black"
+              >Eastern Essos</a
+            >
           </div>
           <div class="carousel-item">
-            <a href="#unvisitedislands" class="display-4">Unvisited Islands</a>
+            <a href="#unvisitedislands" class="display-4 hercu black"
+              >Unvisited Islands</a
+            >
           </div>
         </div>
         <a
@@ -334,7 +381,7 @@
 
       <!--BEGINN OF ESSOS RELIGIONS-->
 
-      <h2 class="text-center">Religions of Essos</h2>
+      <h2 class="text-center hercu">Religions of Essos</h2>
       <div class="row">
         <!--THE LORD OF THE LIGHT-->
         <div class="col-lg-4 text-center">
@@ -344,12 +391,16 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>The Lord of the Light</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
+          <h4 class="hercu">The Lord of the Light</h4>
+          <p class="hercu">
+            R'hllor, alternatively known as the Lord of Light (High Valyrian:
+            Āeksios Ōño), is a deity widely worshiped on the continent of Essos.
+            The Lord of Light has been described as a "fire god" and its clergy
+            "fire priests", as His worship centers around fire and light. He is
+            also known as the Red God, the Heart of Fire, and the God of Flame
+            and Shadow. The faith of the Lord of Light is the majority religion
+            in several of the Free Cities, and extends to Asshai in the distant
+            east. Worship of the Lord of Light is almost unheard of in Westeros.
           </p>
           <p>
             <a class="btn btn-secondary" href="#" role="button"
@@ -366,17 +417,12 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>The Many-Faced God of Dead</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#" role="button"
-              >View details »</a
-            >
+          <h4 class="hercu">The Many-Faced God of Dead</h4>
+          <p class="hercu">
+            The Many-Faced God (alternatively known as the God of Death) is a
+            deity worshiped by the mysterious cult of assassins known as the
+            Faceless Men, who are headquartered in the Free City of Braavos and
+            they believe that through their assassinations they do his work.
           </p>
         </div>
 
@@ -388,17 +434,13 @@
             style="width: 100px; height: 100px"
           />
 
-          <h4>Great Stallion</h4>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="#" role="button"
-              >View details »</a
-            >
+          <h4 class="hercu">Great Stallion</h4>
+          <p class="hercu">
+            The Great Stallion (Dothraki: Vezhof[1]) is a horse god worshipped
+            by the Dothraki, mirroring the importance of horses in that culture.
+            The religious beliefs of the Dothraki are complex, as there is
+            little division in Dothraki society between what in other cultures
+            might be called "religion" and "custom".
           </p>
         </div>
       </div>
@@ -407,10 +449,12 @@
 
       <hr class="featurette-divider" />
 
-      <!-- SEASONGUIDE-->
+      <!-- TRAILER-->
 
-      <p class="text-center display-4" style="margin: 25px;">Seasonguide</p>
-      <div class="video-container">
+      <p class="text-center display-4 hercu" style="margin: 25px;" id="trailer">
+        Trailer
+      </p>
+      <div class="video-container" style="margin-bottom: 50px">
         <iframe
           width="1680"
           height="753"
@@ -420,64 +464,19 @@
           allowfullscreen
         ></iframe>
       </div>
-
-      <h2 class="text-center " style=" margin: 25px;">
-        Season 1
-      </h2>
-
-      <p>
-        Season 1 spans a period of several months on a world where the seasons
-        last for years at a time. The action begins in the unified Seven
-        Kingdoms of Westeros as the long summer ends and winter draws near. Lord
-        Eddard Stark is asked by his old friend, King Robert Baratheon, to serve
-        as the Hand of the King following the death of the previous incumbent,
-        Eddard's mentor Jon Arryn. Eddard is reluctant but receives intelligence
-        suggesting that Jon was murdered. Eddard accepts Robert's offer,
-        planning to use his position and authority to investigate the alleged
-        murder. Meanwhile, on the eastern continent of Essos, the exiled
-        children of House Targaryen, which Robert destroyed to claim the throne,
-        are plotting to return to Westeros and unseat the 'usurper'. To this
-        end, Viserys Targaryen arranges the marriage of his sister Daenerys to
-        Khal Drogo, the leader of 40,000 Dothraki warriors, in return for the
-        use of his warriors in invading Westeros. For her part, Daenerys just
-        wants to find a safe refuge far away from King Robert's assassins and
-        her brother's scheming ambition. Finally, on the northern-most border of
-        the Seven Kingdoms the sworn brothers of the Night's Watch guard the
-        Wall, a 300-mile-long colossal fortification of ice which has stood for
-        thousands of years. The Watch defends the Wall against the depredations
-        of the lawless wildlings who live beyond, but rumor speaks of a new
-        threat arising in the lands of perpetual winter.
-      </p>
-
-      <h2 class="text-center " style=" margin: 25px;">
-        Season 2
-      </h2>
-
-      <p>
-        Season 1 spans a period of several months on a world where the seasons
-        last for years at a time. The action begins in the unified Seven
-        Kingdoms of Westeros as the long summer ends and winter draws near. Lord
-        Eddard Stark is asked by his old friend, King Robert Baratheon, to serve
-        as the Hand of the King following the death of the previous incumbent,
-        Eddard's mentor Jon Arryn. Eddard is reluctant but receives intelligence
-        suggesting that Jon was murdered. Eddard accepts Robert's offer,
-        planning to use his position and authority to investigate the alleged
-        murder. Meanwhile, on the eastern continent of Essos, the exiled
-        children of House Targaryen, which Robert destroyed to claim the throne,
-        are plotting to return to Westeros and unseat the 'usurper'. To this
-        end, Viserys Targaryen arranges the marriage of his sister Daenerys to
-        Khal Drogo, the leader of 40,000 Dothraki warriors, in return for the
-        use of his warriors in invading Westeros. For her part, Daenerys just
-        wants to find a safe refuge far away from King Robert's assassins and
-        her brother's scheming ambition. Finally, on the northern-most border of
-        the Seven Kingdoms the sworn brothers of the Night's Watch guard the
-        Wall, a 300-mile-long colossal fortification of ice which has stood for
-        thousands of years. The Watch defends the Wall against the depredations
-        of the lawless wildlings who live beyond, but rumor speaks of a new
-        threat arising in the lands of perpetual winter.
-      </p>
     </div>
 
+    <hr class="featurette-divider" />
+    <footer>
+      <nav id="contact" class="navbar navbar-light bg-light hercu ">
+        <p
+          class="font-weight-lighter text-center text-dark"
+          style="margin:auto"
+        >
+          Nerd GmbH - Main street 210 - 50935 Cologne
+        </p>
+      </nav>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
